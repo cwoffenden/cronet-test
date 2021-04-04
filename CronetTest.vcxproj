@@ -73,32 +73,32 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <LinkIncremental>true</LinkIncremental>
     <IncludePath>$(ProjectDir)\lib\cronet\inc;$(IncludePath)</IncludePath>
-    <LibraryPath>$(ProjectDir)\lib\cronet\bin\$(PlatformShortName);$(LibraryPath)</LibraryPath>
-    <OutDir>$(SolutionDir)out\$(PlatformShortName)\$(Configuration)\</OutDir>
+    <LibraryPath>$(ProjectDir)\lib\cronet\bin\win\$(PlatformShortName);$(LibraryPath)</LibraryPath>
+    <OutDir>$(SolutionDir)out\win\$(PlatformShortName)\$(Configuration)\</OutDir>
     <IntDir>out\$(PlatformShortName)\$(Configuration)\</IntDir>
     <LocalDebuggerEnvironment>PATH=$(ProjectDir);$(LibraryPath);%PATH%;</LocalDebuggerEnvironment>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <LinkIncremental>false</LinkIncremental>
     <IncludePath>$(ProjectDir)\lib\cronet\inc;$(IncludePath)</IncludePath>
-    <LibraryPath>$(ProjectDir)\lib\cronet\bin\$(PlatformShortName);$(LibraryPath)</LibraryPath>
-    <OutDir>$(SolutionDir)out\$(PlatformShortName)\$(Configuration)\</OutDir>
+    <LibraryPath>$(ProjectDir)\lib\cronet\bin\win\$(PlatformShortName);$(LibraryPath)</LibraryPath>
+    <OutDir>$(SolutionDir)out\win\$(PlatformShortName)\$(Configuration)\</OutDir>
     <IntDir>out\$(PlatformShortName)\$(Configuration)\</IntDir>
     <LocalDebuggerEnvironment>PATH=$(ProjectDir);$(LibraryPath);%PATH%;</LocalDebuggerEnvironment>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <LinkIncremental>true</LinkIncremental>
     <IncludePath>$(ProjectDir)\lib\cronet\inc;$(IncludePath)</IncludePath>
-    <LibraryPath>$(ProjectDir)\lib\cronet\bin\$(PlatformShortName);$(LibraryPath)</LibraryPath>
-    <OutDir>$(SolutionDir)out\$(PlatformShortName)\$(Configuration)\</OutDir>
+    <LibraryPath>$(ProjectDir)\lib\cronet\bin\win\$(PlatformShortName);$(LibraryPath)</LibraryPath>
+    <OutDir>$(SolutionDir)out\win\$(PlatformShortName)\$(Configuration)\</OutDir>
     <IntDir>out\$(PlatformShortName)\$(Configuration)\</IntDir>
     <LocalDebuggerEnvironment>PATH=$(ProjectDir);$(LibraryPath);%PATH%;</LocalDebuggerEnvironment>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <LinkIncremental>false</LinkIncremental>
     <IncludePath>$(ProjectDir)\lib\cronet\inc;$(IncludePath)</IncludePath>
-    <LibraryPath>$(ProjectDir)\lib\cronet\bin\$(PlatformShortName);$(LibraryPath)</LibraryPath>
-    <OutDir>$(SolutionDir)out\$(PlatformShortName)\$(Configuration)\</OutDir>
+    <LibraryPath>$(ProjectDir)\lib\cronet\bin\win\$(PlatformShortName);$(LibraryPath)</LibraryPath>
+    <OutDir>$(SolutionDir)out\win\$(PlatformShortName)\$(Configuration)\</OutDir>
     <IntDir>out\$(PlatformShortName)\$(Configuration)\</IntDir>
     <LocalDebuggerEnvironment>PATH=$(ProjectDir);$(LibraryPath);%PATH%;</LocalDebuggerEnvironment>
   </PropertyGroup>
