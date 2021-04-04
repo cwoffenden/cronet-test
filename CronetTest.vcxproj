@@ -75,7 +75,7 @@
     <IncludePath>$(ProjectDir)\lib\cronet\inc;$(IncludePath)</IncludePath>
     <LibraryPath>$(ProjectDir)\lib\cronet\bin\win\$(PlatformShortName);$(LibraryPath)</LibraryPath>
     <OutDir>$(SolutionDir)out\win\$(PlatformShortName)\$(Configuration)\</OutDir>
-    <IntDir>out\$(PlatformShortName)\$(Configuration)\</IntDir>
+    <IntDir>out\win\$(PlatformShortName)\$(Configuration)\</IntDir>
     <LocalDebuggerEnvironment>PATH=$(ProjectDir);$(LibraryPath);%PATH%;</LocalDebuggerEnvironment>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
@@ -83,7 +83,7 @@
     <IncludePath>$(ProjectDir)\lib\cronet\inc;$(IncludePath)</IncludePath>
     <LibraryPath>$(ProjectDir)\lib\cronet\bin\win\$(PlatformShortName);$(LibraryPath)</LibraryPath>
     <OutDir>$(SolutionDir)out\win\$(PlatformShortName)\$(Configuration)\</OutDir>
-    <IntDir>out\$(PlatformShortName)\$(Configuration)\</IntDir>
+    <IntDir>out\win\$(PlatformShortName)\$(Configuration)\</IntDir>
     <LocalDebuggerEnvironment>PATH=$(ProjectDir);$(LibraryPath);%PATH%;</LocalDebuggerEnvironment>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
@@ -91,7 +91,7 @@
     <IncludePath>$(ProjectDir)\lib\cronet\inc;$(IncludePath)</IncludePath>
     <LibraryPath>$(ProjectDir)\lib\cronet\bin\win\$(PlatformShortName);$(LibraryPath)</LibraryPath>
     <OutDir>$(SolutionDir)out\win\$(PlatformShortName)\$(Configuration)\</OutDir>
-    <IntDir>out\$(PlatformShortName)\$(Configuration)\</IntDir>
+    <IntDir>out\win\$(PlatformShortName)\$(Configuration)\</IntDir>
     <LocalDebuggerEnvironment>PATH=$(ProjectDir);$(LibraryPath);%PATH%;</LocalDebuggerEnvironment>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
@@ -99,7 +99,7 @@
     <IncludePath>$(ProjectDir)\lib\cronet\inc;$(IncludePath)</IncludePath>
     <LibraryPath>$(ProjectDir)\lib\cronet\bin\win\$(PlatformShortName);$(LibraryPath)</LibraryPath>
     <OutDir>$(SolutionDir)out\win\$(PlatformShortName)\$(Configuration)\</OutDir>
-    <IntDir>out\$(PlatformShortName)\$(Configuration)\</IntDir>
+    <IntDir>out\win\$(PlatformShortName)\$(Configuration)\</IntDir>
     <LocalDebuggerEnvironment>PATH=$(ProjectDir);$(LibraryPath);%PATH%;</LocalDebuggerEnvironment>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
