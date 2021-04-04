@@ -7,7 +7,5 @@
 *.androidproj text eol=crlf
 *.bat text eol=crlf
 
-# Windows libs
-lib/cronet/bin/**.dll filter=lfs diff=lfs merge=lfs -text
-lib/cronet/bin/**.lib filter=lfs diff=lfs merge=lfs -text
-lib/cronet/bin/**.pdb filter=lfs diff=lfs merge=lfs -text
+# Platform libs
+lib/cronet/bin/ filter=lfs diff=lfs merge=lfs -text
