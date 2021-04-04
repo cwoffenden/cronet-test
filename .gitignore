@@ -1,0 +1,23 @@
+# Intermediate and and build files
+out/
+
+# VS project files
+*.vcxproj.user
+*.androidproj.user
+.vs/
+*.VC.db
+*.VC.opendb
+*.sdf
+*.suo
+*.opensdf
+*.aps
+
+# Mac meta files
+.DS_Store
+
+# Xcode project files
+*.mode1v3
+*.pbxuser
+*.xcworkspace
+*.xcscheme
+xcuserdata/
